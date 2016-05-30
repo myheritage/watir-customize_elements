@@ -1,0 +1,16 @@
+modules:
+  watir: true
+  page_object: true
+elements:
+  mh_checkbox:
+    element_collection: mh_checkboxes
+    element_class: MHCheckBox
+    element_type: CheckBox
+  mh_button:
+    element_collection: mh_buttons
+    element_class: MHButton
+    element_type: Button
+  source_with_matches:
+    element_collection: sources_with_matches
+    element_class: SourceWithMatches
+    element_type: Element
