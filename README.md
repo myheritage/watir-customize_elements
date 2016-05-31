@@ -60,4 +60,4 @@ Determines which gem to interact with. Configure according to your setup.
       element the same type of attribute as its native HTML element type (ex: mh-checkbox with a type of CheckBox is
       treated by PageObject as a true HTML checkbox). If there isn't a matching type, choose Element.
 
-You can find an example of a complete yml file here (add link to example_custom_elements.yml).
+You can find an example of a complete yml file [here](http://github.com/myheritage/watir-customize_elements/blob/master/example_custom_elements.yml)
