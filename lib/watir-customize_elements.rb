@@ -59,7 +59,7 @@ unless WatirCustomizeElements.custom_elements.nil?
     module Watir
       # Expanding the case statement in the normalize_selector method to include custom attributes,
       # since the custom element does not recognize all attributes by default.
-      if Gem.loaded_specs["watir-webdriver"].version == Gem::Version.create('0.9.1')
+      if Gem.loaded_specs["watir-webdriver"].version <= Gem::Version.create('0.9.1')
         class ElementLocator
           alias :old_normalize_selector :normalize_selector
 
