@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "watir-customize_elements"
   s.platform = Gem::Platform::RUBY
-  s.version = '0.0.3'
+  s.version = '0.0.4'
   s.authors = ["Yehuda Miller, Shani Raby, Matan Goren, Ronnie Harpaz"]
   s.email = ['matan.goren@myheritage.com', 'yehudafmiller@gmail.com']
   s.homepage    = 'https://github.com/myheritage/watir-customize_elements'
