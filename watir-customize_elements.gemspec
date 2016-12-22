@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.name = "watir-customize_elements"
   s.platform = Gem::Platform::RUBY
-  s.version = '0.0.2'
+  s.version = '0.0.3'
   s.authors = ["Yehuda Miller, Shani Raby, Matan Goren, Ronnie Harpaz"]
   s.email = ['matan.goren@myheritage.com', 'yehudafmiller@gmail.com']
   s.homepage    = 'https://github.com/myheritage/watir-customize_elements'
@@ -12,6 +12,6 @@ Gem::Specification.new do |s|
   s.files = ["lib/watir-customize_elements.rb", "LICENSE.txt", "README.md", "example_custom_elements.yml"]
   s.require_paths = ["lib"]
 
-  s.add_dependency 'watir-webdriver', '>= 0.6.11'
+  s.add_dependency 'watir'
   s.add_dependency 'page-object'
 end
