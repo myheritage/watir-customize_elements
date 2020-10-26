@@ -56,31 +56,6 @@ unless WatirCustomizeElements.custom_elements.nil?
       end
     end
 
-    module Watir
-      # Expanding the case statement in the normalize_selector method to include custom attributes,
-      # since the custom element does not recognize all attributes by default.
-        module Locators
-          class Element
-
-            # Expanding the case statement in the normalize_selector method to include custom attributes,
-            # since the custom element does not recognize all attributes by default.
-            class SelectorBuilder
-              alias :old_normalize_selector :normalize_selector
-
-              def normalize_selector(how, what)
-                case how
-                  # supporting "name" attribute
-                  when :name
-                    [how, what]
-                  else
-                    old_normalize_selector(how, what)
-                end
-              end
-            end
-          end
-        end
-    end
-
   end
 
   if WatirCustomizeElements.modules['page_object']
